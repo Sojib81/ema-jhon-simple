@@ -1,0 +1,29 @@
+.product-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid lightgray;
+  margin: 0px 5px 5px 20px;
+  padding: 3px;
+}
+
+.product-details {
+  width: 70%;
+  margin-left: 10px;
+}
+
+.btn-add-to-cart {
+  border: none;
+  background-color: orange;
+  color: rgb(20, 20, 20);
+  font-weight: 500;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.btn-add-to-cart span.icon {
+  background: url("../../images/cart.png") no-repeat;
+  float: left;
+  width: 10px;
+  height: 40px;
+}
