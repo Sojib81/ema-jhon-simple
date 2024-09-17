@@ -13,17 +13,17 @@
 }
 
 .btn-add-to-cart {
+  text-align: center;
+  width: 300px;
   border: none;
   background-color: orange;
   color: rgb(20, 20, 20);
   font-weight: 500;
   border-radius: 5px;
   padding: 10px;
+  cursor: pointer;
 }
-
-.btn-add-to-cart span.icon {
-  background: url("../../images/cart.png") no-repeat;
-  float: left;
-  width: 10px;
-  height: 40px;
+.btn-add-to-cart .cart-icon {
+  color: #fff;
+  margin: 0px 10px 0px 0px;
 }
